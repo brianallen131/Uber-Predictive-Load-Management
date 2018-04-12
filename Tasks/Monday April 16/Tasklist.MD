@@ -17,3 +17,6 @@ Each computation should be done for Tuesdays from 10-11pm: May 6, May 13, May 20
 - *Relevant time* is defined as 10-11pm for each Tuesday in May 2014.
 - *Relevant area* is defined separately as the Geohash7 MSG locations and the surrounding area are the surrounding area in the Geohash6 MSG locations at the *relevant time*.
 
+<p align="center">
+  <img src="Relevant Area.png" width="1000"/>
+</p>
