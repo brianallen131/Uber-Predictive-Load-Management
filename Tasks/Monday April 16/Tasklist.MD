@@ -6,7 +6,8 @@ Each computation should be done for Tuesdays from 10-11pm: May 6, May 13, May 20
 | ------------- | ------------- | ------------- | -------------|
 | Monday | Develop theoretical framework for 2 vehicle, 2 area model in *relevant area* | Sean, Forest | no |
 | Monday | Average price of taxis during *relevant time* | Pit | no |
-| Monday | % change in Uber pickups and % change in taxi pickups | Brian | no |
+| Monday | % change in taxi pickups | Pit | no |
+| Monday | % change in Uber pickups | Brian | no |
 | Monday | Estimating average service time for all combinations of geohash7 from MSG Geohashes | Keni | no |
 | Unknown | Develop theoretical framework for 2 vehicle, 3 area model   | Sean, Forest | no |
 | Unknown | Develop theoretical framework for n vehicle, m area model   | Sean, Forest | no |
