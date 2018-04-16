@@ -1,4 +1,4 @@
-<h2>Questions for Wednesday Class:</h2>
+<h2>Questions for Wednesday's Class:</h2>
 
 * Use m/m/inf or m/m/k queue to estimate state probbailities (assume service time = time from uber request until drop-off)
 * Scale model efficiently
