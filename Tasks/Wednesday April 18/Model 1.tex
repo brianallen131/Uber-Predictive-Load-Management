@@ -32,7 +32,8 @@
 \vspace{.3 in}
 
 \textbf{Model}
-
+Maximize (total number of customers served) * r - (total cost of relocation)\\
+(total number of customers served)  = min(total number of customers willing to take uber, total number of cars available)
 \begin{align*}
 \max & \left[\min\left[\sum_i \left(\sum_j x_{ij}D_i\right),\sum_j N_{1j} \right]\right]\cdot r - \sum_i\sum_jn_{ij}c_{ij} \\
 \text{such that      } & N_{1j} = N_{0j} + \sum_i m_{ij} - \sum_i m_{ji} \quad \forall j\\
