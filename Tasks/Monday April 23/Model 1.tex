@@ -1,0 +1,43 @@
+ \documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+
+\begin{document}
+ 
+ 
+\title{Transportation Analytics}
+\author{Final Project - Uber Load Management}
+
+\maketitle
+
+\textbf{Optimization Variables}
+
+\begin{itemize}
+\item $m_{ij}$ := The number of cars relocated from location $i$ to location $j$.
+\end{itemize}
+
+\vspace{.3 in}
+
+\textbf{Model Parameters}
+\begin{itemize}
+\item $D_i$ := true demand for Ubers from location i
+\item $x_{ij}$ := probability customers in location i will select Uber given it is in location j
+\item $N_{0j}$ := number of cars in location j prior to relocation
+\item $N_{1j} = N_{0j} + \sum_im_{ij} - \sum_im_{ji}$ := number of cars in location j after relocation
+\item $c_{ij}$ := cost of relocating Uber from location i to location j
+\item $r$ := revenue from picking up a customer
+\end{itemize}
+
+\vspace{.3 in}
+
+\textbf{Model}
+Maximize (total number of customers served) * r - (total cost of relocation)\\
+(total number of customers served)  = min(total number of customers willing to take uber, total number of cars available)
+\begin{align*}
+\max & \left[\min\left[\sum_i \left(\sum_j x_{ij}D_i\right),\sum_j N_{1j} \right]\right]\cdot r - \sum_i\sum_jn_{ij}c_{ij} \\
+\text{such that      } & N_{1j} = N_{0j} + \sum_i m_{ij} - \sum_i m_{ji} \quad \forall j\\
+& N_{0j}\geq \sum_i m_{ij} \quad \forall j
+\end{align*}
+
+\end{document}
