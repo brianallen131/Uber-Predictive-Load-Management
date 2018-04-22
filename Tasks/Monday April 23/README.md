@@ -16,7 +16,7 @@
 
 | Due | Tasks | Responsible | Completed |
 | ------------- | ------------- | ------------- | -------------|
-| Monday | Estimate true demand for Ubers at MSG (D_j) | Pit | no |
+| Monday | Estimate true demand for Ubers at MSG (D_j) | Pit | yes |
 | Monday | Estimate the probability a customer in location i chooses Uber given it comes from location j (x_ij) | Keni | yes |
 | Monday | Estimate the cost of reloacting Ubers from locations i to j (c_ij) | Forest | no |
 | Monday | Code up linear program with made up parameter inputs | Sean | no |
