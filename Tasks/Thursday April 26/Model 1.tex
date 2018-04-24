@@ -1,3 +1,8 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
 \documentclass[12pt]{article}
 
 \usepackage[margin=1in]{geometry} 
@@ -37,7 +42,7 @@
 \max & \sum_i\sum_j y_{ij}x_{ij}r - m_{ij}c_{ij} \\
 \text{such that      } & N_{1j} = N_{0j} + \sum_i m_{ij} - \sum_i m_{ji} \quad \forall j\\
 & N_{0j}\geq \sum_i m_{ij} \quad \forall j \\
-& y_ij \geq 0 \quad \forall i, j\\
+& y_{ij} \geq 0 \quad \forall i, j\\
 & \sum_j y_{ij} \leq D_i \quad \forall i \text{   [consider equality]   }\\
 & \sum_i y_{ij}x_{ij}\leq N_{1j} \quad \forall j
 \end{align*}
