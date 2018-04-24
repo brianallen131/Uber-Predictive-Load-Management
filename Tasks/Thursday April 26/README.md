@@ -5,6 +5,6 @@
   - Model allowing for prediction inaccuracies
   - Pareto (alpha)-weighted objective function: Create curve where we try different alphas for alpha*rev - (1-alpha)*cost
 - Parameter Estimate [Pit]
-  - D_i, x_ij, N_0j, r
+  - D_i, x_ij, c_ij, N_0j, r
 - Simulation [Sean]
 - Report Writing/PPT [Brian]
