@@ -19,7 +19,8 @@
 \textbf{Optimization Variables}
 
 \begin{itemize}
-\item $m_{ij}$ := The number of cars relocated from location $i$ to location $j$.
+\item $m_{ij}$ := The number of cars relocated from location $i$ to location $j$
+\item $y_{ij}$ := number of people who open app in location i matched with car from location j
 \end{itemize}
 
 \vspace{.3 in}
@@ -27,7 +28,6 @@
 \textbf{Model Parameters}
 \begin{itemize}
 \item $D_i$ := true demand for Ubers from location i
-\item $y_{ij}$ := number of people who open app in location i matched with car from location j.
 \item $x_{ij}$ := probability customers in location i will select Uber given it is in location j
 \item $N_{0j}$ := number of cars in location j prior to relocation
 \item $N_{1j} = N_{0j} + \sum_im_{ij} - \sum_im_{ji}$ := number of cars in location j after relocation
