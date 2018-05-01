@@ -6,4 +6,4 @@
 * Geohash Script: [pygeohash_tutorial.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/pygeohash_tutorial.ipynb)
 * Model 1: [model_1.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/model_1.ipynb)
 * Model 2: [model_2_Keni.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/model_2_Keni.ipynb) and [model_2_with_&alpha;.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/model_2_with_&alpha;.ipynb)
-* Models 3 & 4: [sim.py](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/model_3_4.py) 
+* Models 3 & 4: [model_3_4.py](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/model_3_4.py) 
