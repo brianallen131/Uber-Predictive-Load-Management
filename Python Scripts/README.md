@@ -1,6 +1,6 @@
 **This folder contains all Python scripts used:**
 
-* Parameter Estimation: params_estimation.py
+* Parameter Estimation: [params_estimation.py ](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/params_estimation.py)
 * NYC Yellow Cab Analysis for Parameter Estimation: [NYC_taxi_data.py](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/NYC_taxi_data.py)
 * Trip Duration Analysis (obtain &tau;<sub>ij</sub>): [NYC_taxi_taus.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/NYC_taxi_taus.ipynb)
 * Geohash Script: [pygeohash_tutorial.ipynb](https://github.com/brianallen131/Uber-Predictive-Load-Management/blob/master/Python%20Scripts/pygeohash_tutorial.ipynb)
